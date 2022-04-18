@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="JS/login.js"></script>
+        <title>login</title>
+        <h1>Create Account</h1>
+        <style>
+
+input:invalid {
+                border: 2px dashed rgb(255, 0, 0);
+            }
+
+            input:valid {
+                border: 2px solid green;
+            
+            }
+
+        div {
+            margin-bottom: 10px;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <button onclick="history.backspace()">Back</button>
+        <form>
+        
+        <div>
+            <label for="first">First Name</label>
+            <input id="first" name="first" placeholder="Enter first name" required maxlength="20">
+        </div>
+
+        <div>
+            <label for="last">Last Name</label>
+            <input id="last" name="last" placeholder="Enter last name" required maxlength="20">
+        </div>
+
+        <div>
+            <label for="user">Username</label>
+            <input id="user" name="user" placeholder="Enter username" required maxlength="40">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" placeholder="Enter password" required maxlength="30">
+        </div>
+
+        <div>
+            <label for="confirmPass">Confirm Password</label>
+            <input id="confirmPass" name="confirmPass" placeholder="Confirm password" required maxlength="30">
+        </div>
+
+        <button type="submit">Create Account</button>
+        </form>
+    </body>
+</html>
