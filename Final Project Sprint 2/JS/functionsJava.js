@@ -1,0 +1,6 @@
+function back() {
+    history.backspace();
+}
+
+
+}
